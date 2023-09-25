@@ -9,6 +9,7 @@ qUIck-React is a simple *component library* which can be used to create simple w
 3. Run this command in your terminal `git clone <your cloned repo url>`
 4. cd into the folder `qUIck-React`
 5. Install the packages `npm i`
+> Note: Make sure you have prettier installed with node. `npm i -g prettier`
 
 ## Testing Your Code
 
