@@ -9,14 +9,14 @@ export const Button: React.FunctionComponent<IButtonProps> = (props) => {
     const { children, backgroundColor, color, style } = props;
 
     let _style: React.CSSProperties = style || {
-        backgroundColor: "#414141",
-        color: "#ffffff",
-        border: "none",
-        borderRadius: "5px",
-        padding: "10px 20px",
-        fontSize: "16px",
-        cursor: "pointer",
-        transition: "all 0.3s ease-in-out",
+        backgroundColor: '#414141',
+        color: '#ffffff',
+        border: 'none',
+        borderRadius: '5px',
+        padding: '10px 20px',
+        fontSize: '16px',
+        cursor: 'pointer',
+        transition: 'all 0.3s ease-in-out'
     };
 
     /** Override Defaults */
