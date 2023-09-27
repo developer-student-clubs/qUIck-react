@@ -27,16 +27,12 @@ body:
       placeholder: Explain the correct behavior you anticipated.
     validations:
       required: true
-  - type: checkboxes
-    id: terms
-    attributes:
-      label: I agree to and respect the Code of Conduct
-      description: By submitting this issue, you are agreeing to follow our [CODE OF CONDUCT](../blob/main/.github/CODE_OF_CONDUCT.md)
-      options:
-        - label: I will follow [CONTRIBUTING GUIDELINES](../blob/main/.github/CONTRIBUTING_GUIDELINE.md)
-          required: true
   - type: markdown
     attributes:
       value: |
         Thank you for reporting a bug in our library. Please provide the following information to help us investigate and resolve the issue.
+        
+        **By submitting this issue, you are agreeing to follow our [Code of Conduct](../blob/main/.github/CODE_OF_CONDUCT.md).**
+        **Before you proceed, please review our [Contributing Guidelines](../blob/main/.github/CONTRIBUTING_GUIDELINE.md).**
+        
         Your feedback is valuable to us!
