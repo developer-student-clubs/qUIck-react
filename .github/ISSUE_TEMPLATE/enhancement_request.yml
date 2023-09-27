@@ -19,7 +19,7 @@ body:
       label: 🧩 React Component Name
       description: Specify the name of the React component for which you're suggesting an enhancement.
       placeholder: Enter the name of the component.
-      value: ""
+      value: 
     validations:
       required: true
   - type: textarea
@@ -37,7 +37,7 @@ body:
       label: 🎯 Motivation
       description: Explain the motivation behind this enhancement and how it benefits the library.
       placeholder: Describe the motivation in detail.
-      value: ""
+      value: 
     validations:
       required: true
   - type: dropdown
