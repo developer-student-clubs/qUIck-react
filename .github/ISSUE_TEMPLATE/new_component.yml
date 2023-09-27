@@ -1,0 +1,45 @@
+name: 🌟 New Component Proposal
+description: Propose adding a new component to the library
+title: "[New Component Proposal]: "
+
+body:
+  - type: textarea
+    id: componentName
+    attributes:
+      label: 🧩 New Component Name
+      description: Specify the name of the new React component you'd like to add.
+      placeholder: Enter the name of the new component.
+      value: "My New Component"
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: 📝 Component Description
+      description: Provide a clear and concise description of the new component.
+      placeholder: Describe the purpose and functionality of the component.
+      value: "This new component provides functionality for XYZ." 
+    validations:
+      required: true
+  - type: textarea
+    id: motivation
+    attributes:
+      label: 🎯 Motivation
+      description: Explain why this new component is needed and how it benefits the library.
+      placeholder: Describe the motivation for adding this component.
+      value: "We need this component to enhance user experience by..."
+    validations:
+      required: true
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: I agree to and respect the Code of Conduct
+      description: By submitting this issue, you are agreeing to follow our [CODE OF CONDUCT](../blob/main/.github/CODE_OF_CONDUCT.md)
+      options:
+        - label: I will follow [CONTRIBUTING GUIDELINES](../blob/main/.github/CONTRIBUTING_GUIDELINE.md)
+          required: true
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for proposing a new component for our React component library. Please provide the following information to help us evaluate the proposal.
+        Thank you for your contribution!
