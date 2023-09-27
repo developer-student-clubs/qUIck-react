@@ -19,16 +19,12 @@ body:
       placeholder: Explain what changes should be made and why.
     validations:
       required: true
-  - type: checkboxes
-    id: terms
-    attributes:
-      label: I agree to and respect the Code of Conduct
-      description: By submitting this issue, you are agreeing to follow our [CODE OF CONDUCT](../blob/main/.github/CODE_OF_CONDUCT.md)
-      options:
-        - label: I will follow [CONTRIBUTING GUIDELINES](../blob/main/.github/CONTRIBUTING_GUIDELINE.md)
-          required: true
   - type: markdown
     attributes:
       value: |
         Thank you for suggesting improvements to our documentation. Please provide the following information to help us make our documentation better.
+        
+        **By submitting this issue, you are agreeing to follow our [Code of Conduct](../blob/main/.github/CODE_OF_CONDUCT.md).**
+        **Before you proceed, please review our [Contributing Guidelines](../blob/main/.github/CONTRIBUTING_GUIDELINE.md).**
+        
         Your contribution is appreciated!
