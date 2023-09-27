@@ -1,0 +1,42 @@
+name: 🐞 Bug Report
+description: Report a bug or issue in the library
+title: "[Bug Report]: "
+
+body:
+  - type: textarea
+    id: bugDescription
+    attributes:
+      label: 📝 Bug Description
+      description: Describe the bug or issue you encountered in detail.
+      placeholder: Provide a clear and concise description of the problem.
+    validations:
+      required: true
+  - type: textarea
+    id: reproductionSteps
+    attributes:
+      label: 🔄 Steps to Reproduce
+      description: Provide step-by-step instructions to reproduce the bug.
+      placeholder: Describe the actions you took leading to the issue.
+    validations:
+      required: true
+  - type: textarea
+    id: expectedBehavior
+    attributes:
+      label: 🤔 Expected Behavior
+      description: Describe what you expected to happen.
+      placeholder: Explain the correct behavior you anticipated.
+    validations:
+      required: true
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: I agree to and respect the Code of Conduct
+      description: By submitting this issue, you are agreeing to follow our [CODE OF CONDUCT](../blob/main/.github/CODE_OF_CONDUCT.md)
+      options:
+        - label: I will follow [CONTRIBUTING GUIDELINES](../blob/main/.github/CONTRIBUTING_GUIDELINE.md)
+          required: true
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for reporting a bug in our library. Please provide the following information to help us investigate and resolve the issue.
+        Your feedback is valuable to us!
