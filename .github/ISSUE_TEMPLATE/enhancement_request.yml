@@ -1,0 +1,66 @@
+name: 💡 React Component Enhancement Request
+description: Suggest an enhancement for a React component in the library
+title: "[Enhancement]: "
+
+body:
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: I agree to and respect the Code of Conduct
+      description: By submitting this issue, you are agreeing to follow our [CODE OF CONDUCT](../blob/main/.github/CODE_OF_CONDUCT.md)
+      options:
+        - label: I have searched for similar enhancement requests in the project's repository.
+          required: false
+        - label: I have checked the project's documentation and resources for troubleshooting.
+          required: false
+  - type: textarea
+    id: componentName
+    attributes:
+      label: 🧩 React Component Name
+      description: Specify the name of the React component for which you're suggesting an enhancement.
+      placeholder: Enter the name of the component.
+      value: ""
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: 📝 Enhancement Description
+      description: Provide a clear and concise description of the enhancement for the React component.
+      placeholder: Describe your enhancement in detail.
+      value: ""
+    validations:
+      required: true
+  - type: textarea
+    id: motivation
+    attributes:
+      label: 🎯 Motivation
+      description: Explain the motivation behind this enhancement and how it benefits the library.
+      placeholder: Describe the motivation in detail.
+      value: ""
+    validations:
+      required: true
+  - type: dropdown
+    id: contribution
+    attributes:
+      label: Select the labels that best describe this enhancement.
+      multiple: true
+      options:
+        - feature
+        - enhancement
+        - bug
+    validations:
+      required: true
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: I agree to and respect the Code of Conduct
+      description: By submitting this issue, you are agreeing to follow our [CODE OF CONDUCT](../blob/main/.github/CODE_OF_CONDUCT.md)
+      options:
+        - label: I will follow [CONTRIBUTING GUIDELINES](../blob/main/.github/CONTRIBUTING_GUIDELINE.md)
+          required: true
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for suggesting an enhancement for a React component in our library. Please provide the following information to help us improve the component.
+        Thank you for taking the time to make our library better!
