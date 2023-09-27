@@ -1,0 +1,34 @@
+name: 📖 Documentation Update
+description: Suggest improvements or corrections to the documentation
+title: "[Documentation Update]: "
+
+body:
+  - type: textarea
+    id: docLocation
+    attributes:
+      label: 📚 Documentation Location
+      description: Specify the location or page in the documentation that needs updates.
+      placeholder: Provide the URL or path to the documentation.
+    validations:
+      required: true
+  - type: textarea
+    id: proposedChanges
+    attributes:
+      label: 🔄 Proposed Changes
+      description: Describe the improvements or corrections you'd like to suggest.
+      placeholder: Explain what changes should be made and why.
+    validations:
+      required: true
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: I agree to and respect the Code of Conduct
+      description: By submitting this issue, you are agreeing to follow our [CODE OF CONDUCT](../blob/main/.github/CODE_OF_CONDUCT.md)
+      options:
+        - label: I will follow [CONTRIBUTING GUIDELINES](../blob/main/.github/CONTRIBUTING_GUIDELINE.md)
+          required: true
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for suggesting improvements to our documentation. Please provide the following information to help us make our documentation better.
+        Your contribution is appreciated!
