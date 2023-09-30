@@ -103,9 +103,9 @@ file.
 </p>
 
 <p align="center">
-  <a href="https://github.com/developer-student-clubs/qUIck-react/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=developer-student-clubs/qUIck-react" />
+  <a href="https://github.com/dhruvdabhi101/qUIck-react/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=dhruvdabhi101/qUIck-react" />
 </a>
 
-<!--Made with [contrib.rocks](https://contrib.rocks). -->
+<!-- Made with [contrib.rocks](https://contrib.rocks). -->
 </p>
