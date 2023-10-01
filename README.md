@@ -18,7 +18,7 @@
 2. **Clone your Repository:** Clone your forked repository URL to your local machine using this command:
 
     ```
-    git clone <your-cloned-repo-url>
+    git clone https://github.com/developer-student-clubs/qUIck-react/
     ```
 
 3. **Navigate to the Project Directory:** Change your working directory to the qUIck-React folder:
@@ -75,7 +75,7 @@
 Before you start contributing to qUIck-React, please read our [Contributing Guidelines](./.github/CONTRIBUTING_GUIDELINE.md) to understand how you can contribute effectively. Your contributions are
 highly valued, and we aim for excellence together.
 
-##  <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Handshake.png" alt="Handshake" width="25" height="25" /> Code of Conduct
+## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Handshake.png" alt="Handshake" width="25" height="25" /> Code of Conduct
 
 Our community upholds a strict [Code of Conduct](./.github/CODE_OF_CONDUCT.md) to maintain a warm and inclusive environment for all. Please familiarize yourself with our code of conduct before
 engaging in discussions or contributing.
